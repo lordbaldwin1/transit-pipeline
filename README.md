@@ -1,6 +1,6 @@
 # Data Engineering Visualization Project
 
-This program takes breadcrumb location and timestamp data from bus stops in Portland, Oregon and computes speed to display speed by location on a map.
+This program takes breadcrumb location and timestamp data from bus stops in Portland, Oregon and computes speed to display speed by location on a map. All data was transmitted through Google Cloud Pubsub.
 
 Tools used: Python (pandas), Google Cloud Platform, Google Cloud PubSub, HERE Maps API
 
