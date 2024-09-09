@@ -1,7 +1,7 @@
 # Data Engineering Visualization Project
 
 This program takes breadcrumb location and timestamp data from bus stops in Portland, Oregon and computes speed to display speed by location on a map.
-## Python (pandas), Google Cloud Platform, HERE Maps API
+Tools used: Python (pandas), Google Cloud Platform, HERE Maps API
 
 ## Examples
 ![7ff0a7f3af79123f18859e7d4cddd366](https://github.com/user-attachments/assets/83f8175b-1069-4121-a0af-fc49ef80ee65)
