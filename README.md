@@ -2,7 +2,7 @@
 
 This program takes breadcrumb location and timestamp data from bus stops in Portland, Oregon and computes speed to display speed by location on a map. All data was transmitted through Google Cloud PubSub and read into our Postgres SQL database. This data pipeline was automated through Google Compute Engine with Linux Virtual Machines.
 
-Tools used: Python (pandas), Google Cloud PubSub, Google Compute Engine (Linux VM), HERE Maps API, Postgres SQL, UNIX
+Tools used: Python (pandas), Google Cloud PubSub, Google Compute Engine (Linux VM), Mapbox API, Postgres SQL, UNIX
 
 ## Examples
 ![7ff0a7f3af79123f18859e7d4cddd366](https://github.com/user-attachments/assets/83f8175b-1069-4121-a0af-fc49ef80ee65)
