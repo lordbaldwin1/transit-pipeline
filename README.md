@@ -1,13 +1,32 @@
-# Data Engineering Visualization Project
+# 🚍 Data Engineering Visualization Project
 
-This program takes breadcrumb location and timestamp data from bus stops in Portland, Oregon and computes speed to display speed by location on a map. All data was transmitted through Google Cloud PubSub and read into our Postgres SQL database. This data pipeline was automated through Google Compute Engine with Linux Virtual Machines.
+This project visualizes bus speeds across Portland, Oregon by calculating speed from breadcrumb location and timestamp data at bus stops. The data pipeline was automated with Google Cloud PubSub and processed into a PostgreSQL database, using Google Compute Engine with Linux Virtual Machines for continuous data flow and processing.
 
-Tools used: Python (pandas), Google Cloud PubSub, Google Compute Engine (Linux VM), Mapbox GL, Postgres SQL, UNIX
+## 📊 Overview
+This project leverages real-time data from Portland bus stops, using geolocation and timestamp data to compute speed metrics. The computed speeds are then visualized on a dynamic map for insights into speed trends by location across the city.
 
-## Examples
-![7ff0a7f3af79123f18859e7d4cddd366](https://github.com/user-attachments/assets/83f8175b-1069-4121-a0af-fc49ef80ee65)
-![2ae3b85ada8bb3cc81e6033c717d55d6](https://github.com/user-attachments/assets/2ab0905d-1ca4-4cbb-a51a-cf6a94f65bdd)
-![7256e09f2307ab860cf76842a5dd4673](https://github.com/user-attachments/assets/270785bd-1f73-4cab-a789-d9f56a6b449f)
-![372192d1c3aaa579fd49aa84848bfe4e](https://github.com/user-attachments/assets/d0795933-fd9b-495b-8694-b7219de8f3fa)
-![cbbcb184c908e2579b741d5feeb03e0c](https://github.com/user-attachments/assets/fae44132-53f2-48d5-b3e5-94c9019fbaee)
-![794880cd7d349bb7f59ff7f4db15d337](https://github.com/user-attachments/assets/b8e00db3-e2dc-42fa-b1f5-5a3205f9baf4)
+## 🛠️ Tools & Technologies
+- **Python** (`pandas`): Data cleaning and processing
+- **Google Cloud PubSub**: Real-time data ingestion
+- **Google Compute Engine (Linux VMs)**: Pipeline automation
+- **PostgreSQL**: Data storage and querying
+- **Mapbox GL**: Geospatial visualization
+- **UNIX**: Task automation and data handling
+
+## 📈 Data Pipeline
+1. **Data Ingestion**: Breadcrumb data (location and timestamp) is transmitted through Google Cloud PubSub to ensure continuous data flow.
+2. **Processing**: Data is processed in Python using `pandas` to compute speed metrics based on timestamp and geolocation.
+3. **Storage**: Processed data is stored in a PostgreSQL database for efficient retrieval and visualization.
+4. **Visualization**: Using Mapbox GL, speeds are displayed dynamically on a map, highlighting speed by location for easy analysis.
+
+## 🖼️ Example Visualizations
+Here are sample visualizations showcasing speed data across Portland's bus stops:
+
+| Map Visualization Example |
+|---------------------------|
+| ![Speed by Location 1](https://github.com/user-attachments/assets/83f8175b-1069-4121-a0af-fc49ef80ee65) |
+| ![Speed by Location 2](https://github.com/user-attachments/assets/2ab0905d-1ca4-4cbb-a51a-cf6a94f65bdd) |
+| ![Speed by Location 3](https://github.com/user-attachments/assets/270785bd-1f73-4cab-a789-d9f56a6b449f) |
+| ![Speed by Location 4](https://github.com/user-attachments/assets/d0795933-fd9b-495b-8694-b7219de8f3fa) |
+| ![Speed by Location 5](https://github.com/user-attachments/assets/fae44132-53f2-48d5-b3e5-94c9019fbaee) |
+| ![Speed by Location 6](https://github.com/user-attachments/assets/b8e00db3-e2dc-42fa-b1f5-5a3205f9baf4) |
