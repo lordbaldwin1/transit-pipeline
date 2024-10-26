@@ -1,4 +1,4 @@
-# 🚍 Data Engineering Visualization Project
+# 🚍 Data Engineering Visualization Project (Python Scripts)
 
 This project visualizes bus speeds across Portland, Oregon by calculating speed from breadcrumb location and timestamp data at bus stops. The data pipeline was automated with Google Cloud PubSub and processed into a PostgreSQL database, using Google Compute Engine with Linux Virtual Machines for continuous data flow and processing.
 
