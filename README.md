@@ -1,11 +1,11 @@
-# 🚍 Data Engineering Visualization Project (Python Scripts)
+# Data Engineering Visualization Project (Python Scripts)
 
 This project visualizes bus speeds across Portland, Oregon by calculating speed from breadcrumb location and timestamp data at bus stops. The data pipeline was automated with Google Cloud PubSub and processed into a PostgreSQL database, using Google Compute Engine with Linux Virtual Machines for continuous data flow and processing.
 
-## 📊 Overview
+## Overview
 This project leverages real-time data from Portland bus stops, using geolocation and timestamp data to compute speed metrics. The computed speeds are then visualized on a dynamic map for insights into speed trends by location across the city.
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 - **Python** (`pandas`): Data cleaning and processing
 - **Google Cloud PubSub**: Real-time data ingestion
 - **Google Compute Engine (Linux VMs)**: Pipeline automation
@@ -13,13 +13,13 @@ This project leverages real-time data from Portland bus stops, using geolocation
 - **Mapbox GL**: Geospatial visualization
 - **UNIX**: Task automation and data handling
 
-## 📈 Data Pipeline
+## Data Pipeline
 1. **Data Ingestion**: Breadcrumb data (location and timestamp) is transmitted through Google Cloud PubSub to ensure continuous data flow.
 2. **Processing**: Data is processed in Python using `pandas` to compute speed metrics based on timestamp and geolocation.
 3. **Storage**: Processed data is stored in a PostgreSQL database for efficient retrieval and visualization.
 4. **Visualization**: Using Mapbox GL, speeds are displayed dynamically on a map, highlighting speed by location for easy analysis.
 
-## 🖼️ Example Visualizations
+## Example Visualizations
 Here are sample visualizations showcasing speed data across Portland's bus stops:
 
 | Map Visualization Example |
